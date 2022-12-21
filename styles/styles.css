@@ -12,6 +12,7 @@ body {
 .logo {
     /* max-width: 150px; */
     max-height: 40px;
+    border-radius: 20px;
 }
 
 nav {
@@ -46,7 +47,7 @@ h2 {
     color: black;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -56,8 +57,12 @@ p {
     line-height: 1.9em;
 }
 
-.hero-section {
+.hero-section,
+.content-container {
     background-color: #f9fef7;
+}
+
+.hero-section {
     text-align: center;
     padding: 170px 15px;
 }
